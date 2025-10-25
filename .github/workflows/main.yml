@@ -1,42 +1,31 @@
-# Nome da Actions:
 name: Snake Game
 
-# Controlador do tempo que sera feito a atualização dos arquivos.
 on:
   schedule:
-    # Será atualizado a cada 5 horas.
+    # Atualiza a cada 5 horas
     - cron: "0 */5 * * *"
-
-  # Permite executar manualmente na aba de Actions
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Faz checkout do repositório
       - uses: actions/checkout@v4
 
-      # Gera o arquivo da cobrinha
+      # Gera os arquivos da cobrinha
       - uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: Vithor-jr
-          outputs: dist
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: dist/snake.svg
 
-      - run: git status
-
-      # Faz o push das mudanças
-      - name: Push changes
+      - name: Commit e push das mudanças
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           force: true
 
-      # Publica na branch "output"
+      # Publica na branch output (para usar no README)
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
