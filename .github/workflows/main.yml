@@ -22,8 +22,9 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: output
           force: true
+
 
       # Publica na branch output (para usar no README)
       - uses: crazy-max/ghaction-github-pages@v3
