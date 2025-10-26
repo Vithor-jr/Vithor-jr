@@ -4,7 +4,11 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vithor-vit%C3%B3rio-63887b2a6)
 
 
-![Vithor GitHub stats](https://github-readme-stats.vercel.app/api?username=Vithor-Jr&show_icons=true&theme=tokyonight)
+<div align="center">
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=Vithor-jr&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vithor-jr&layout=compact&langs_count=8&theme=github_dark"/>
+</div>
+
 
 ## Tecnologias
 
