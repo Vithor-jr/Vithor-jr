@@ -1,8 +1,8 @@
 # Hi there, I'm Vithor Vitório
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Vithor-jr&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vithor-jr&layout=compact&langs_count=8&theme=github_dark"/>
+  <img height="180em" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vithor-jr&theme=holi" alt='Vithor Vitório' GitHub Stats"/> 
+  <img height="180em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vithor-jr&theme=holi" alt="Tecnologias"/>
 </div>
 
 <div align="center">
