@@ -73,11 +73,6 @@ Since 2025, I have been a **teacher in the PIC-Jr** (Programa de Iniciação Cie
 </div>
 
 <div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vithor-jr&theme=holi" alt="Most Commit Language" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vithor-jr&theme=holi" alt="Profile Details" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=Vithor-jr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
